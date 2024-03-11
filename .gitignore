@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Crawler.Agoda/packages
+/Crawler.Agoda/Crawler.Agoda/bin/Debug
+/Crawler.Agoda/Crawler.Agoda/obj/Debug
