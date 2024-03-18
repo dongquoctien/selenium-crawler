@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Agoda", "Crawler.Ag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.TripCom", "Crawler.TripCom\Crawler.TripCom.csproj", "{AE7069D1-3085-4A25-86FD-9C7344D976CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.AddExtentions", "Crawler.AddExtentions\Crawler.AddExtentions.csproj", "{7863E1C3-570A-4598-BD99-D49C0353A412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AE7069D1-3085-4A25-86FD-9C7344D976CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7069D1-3085-4A25-86FD-9C7344D976CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7069D1-3085-4A25-86FD-9C7344D976CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7863E1C3-570A-4598-BD99-D49C0353A412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7863E1C3-570A-4598-BD99-D49C0353A412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7863E1C3-570A-4598-BD99-D49C0353A412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7863E1C3-570A-4598-BD99-D49C0353A412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
