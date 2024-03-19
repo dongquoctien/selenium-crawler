@@ -19,6 +19,7 @@ namespace Crawler.AddExtentions
 
             options.AddArguments("--ignore-certificate-errors");
             options.AddArguments("--allow-running-insecure-content");
+
             options.PageLoadStrategy = PageLoadStrategy.Normal;
 
 
@@ -27,24 +28,15 @@ namespace Crawler.AddExtentions
             Thread.Sleep(8000);
 
             //Switch To tab 1
-
-            //if (tabs.Count > 1)
-            //{
-            //    driver.SwitchTo().Window(tabs[0]);
-            //}
-
             for (int i = 0; i < 2; i++)
             {
                 //Use touch VPN
                 connectVPN(driver);
-
                 driver.SwitchTo().Window(driver.WindowHandles[0]);
                 driver.Navigate().GoToUrl("https://httpbin.org/get");
                 driver.GetScreenshot().SaveAsFile(Guid.NewGuid().ToString() + ".png");
                 Thread.Sleep(2000);
             }
-           
-
         }
 
         private static void connectVPN(IWebDriver driver)
